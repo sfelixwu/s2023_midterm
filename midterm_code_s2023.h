@@ -18,7 +18,7 @@ class Record
  public:
   Record();
   std::vector<SP_Person> partners;
-  std::vector<Thing> things_acroud;
+  std::vector<Thing> things_around;
   JvTime when;
   GPS_DD where;
   virtual Json::Value dump2JSON();
